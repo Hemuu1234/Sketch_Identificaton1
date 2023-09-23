@@ -1,0 +1,29 @@
+body {
+    background-color: darkseagreen;
+
+}
+h1 {
+    background-color: sandybrown;
+    color: crimson;
+}
+#show_sketch {
+    float: right ;
+}
+canvas {
+    border: 5px solid thistle;
+    border-radius: 20px;
+    animation-name: Krishna;
+    animation-duration: 5s;
+    margin-top: 150px;
+    animation-iteration-count: infinite;
+
+}
+@keyframes Krishna {
+    from{box-shadow: 10px 10px 40px salmon;}
+    to{box-shadow: 19px 19px 40px teal;}
+}
+p {
+    padding-top: 10px;
+    font-size: 25px;
+     
+}
